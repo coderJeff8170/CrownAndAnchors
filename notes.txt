@@ -1,0 +1,27 @@
+pirate farkle!
+maintain a curious mindset/ problem solving skills/ trial and error!
+what code can be modular and reused again and again
+
+
+    set image(newimage) {
+        this._image;
+    }
+    
+    get image() {
+        return this._image;
+    }
+
+
+OOP 
+
+    Class definition (blueprint or template)
+    static member of class eg: defaultNumberOfFaces
+
+    Creating instances of Class
+
+    eg: var die = new Die();
+
+    ^^this will be die.Faces
+
+    OO OO you could right click the square to minus bets, and left click to plus bets
+    if square has bets on it, it could change color

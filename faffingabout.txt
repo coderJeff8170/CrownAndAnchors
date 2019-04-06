@@ -1,0 +1,8 @@
+
+    set face(newface) {
+        this._face;
+    }
+    
+    get face() {
+        return this._face;
+    }

@@ -25,3 +25,7 @@ OOP
 
     OO OO you could right click the square to minus bets, and left click to plus bets
     if square has bets on it, it could change color
+
+    Homework = work the Mat and Bet objects
+
+    Albertos' Git = https://github.com/salsada/CrownsAndAnchorsGame

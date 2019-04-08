@@ -1,39 +1,38 @@
 class Face {
-    constructor(faceName, faceValue, faceImage) {
-        this._faceName = faceName;
-        this._faceValue = faceValue;
-        this._faceImage = faceImage;
+    constructor(name, value, imageUrl) {
+        this.name = name;
+        this.value = value;
+        this.imageUrl = imageUrl;
     }
 
-    set faceName(newFaceName) {
-        this._faceName = faceName | "unknown"; //make sure property has a value if it is not defined.
+    set name(faceName) {
+        this._name = faceName | "Unknown";        
     }
-    
-    get faceName() {
-        return this._faceName;
+
+    get name() {
+        return this._name;
     }
- 
-    set faceValue(newFaceValue) {
+
+    set value(faceValue) {
         if(isNaN(faceValue)) {
-            this._faceValue = 0;
+            this._value = 0;
         }
         else {
-        this._faceValue = faceValue;
+            this._value = faceValue;
         }
     }
-    
-    get faceValue() {
-        return this._faceValue;
+
+    get value() {
+        return this._value;
     }
 
-    set faceImage(newFaceImage) {
-        this._faceImage = faceImage | "./600px-GHS-pictogram-unknown.svg";//check this
+    set imageUrl(newImageUrl) {
+        this._imageUrl = newImageUrl | "https://media.moddb.com/cache/images/downloads/1/103/102311/thumb_620x2000/background.png";
     }
-    
-    get faceImage() {
-        return this._faceImage;
+
+    get imageUrl() {
+        return this._imageUrl;
     }
 }
 
 module.exports = Face;
-

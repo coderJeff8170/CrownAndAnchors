@@ -30,5 +30,6 @@ class Bet {
         return this._face;
     }
 }
-
+var jeffsBet = new Bet('apple', 'crown');
+console.log(jeffsBet);
 module.exports = Bet;

@@ -54,5 +54,9 @@ class Die {
     }
 }
 
+var jeffsDie = new Die(['crown', 'anchor', 'heart', 'spade', 'diamond', 'club']);
+var blankDie = new Die();
+console.log(jeffsDie.rollDie());
+console.log(blankDie);
 
 module.exports = Die;

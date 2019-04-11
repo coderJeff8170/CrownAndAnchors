@@ -29,3 +29,6 @@ OOP
     Homework = work the Mat and Bet objects
 
     Albertos' Git = https://github.com/salsada/CrownsAndAnchorsGame
+
+
+    can you put a for loop inside an arrow function - what are an arrow function's limitations?

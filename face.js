@@ -6,7 +6,7 @@ class Face {
     }
 
     set name(faceName) {
-        this._name = faceName | "Unknown";        
+        this._name = faceName || "Unknown";      
     }
 
     get name() {
@@ -27,7 +27,7 @@ class Face {
     }
 
     set imageUrl(newImageUrl) {
-        this._imageUrl = newImageUrl | "https://media.moddb.com/cache/images/downloads/1/103/102311/thumb_620x2000/background.png";
+        this._imageUrl = newImageUrl || "https://media.moddb.com/cache/images/downloads/1/103/102311/thumb_620x2000/background.png";
     }
 
     get imageUrl() {
@@ -36,3 +36,6 @@ class Face {
 }
 
 module.exports = Face;
+
+//on setter you want to check is face
+//on getter you want to check is value?

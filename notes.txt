@@ -32,3 +32,17 @@ OOP
 
 
     can you put a for loop inside an arrow function - what are an arrow function's limitations?
+
+    Object: Constructor, Properties, Methods
+
+    Common JS - write JavaScript modules. Source  -> export App -> import (require)
+
+    There is an ES6 way to do this, but it's not widely supported, esp not by Node. So you need Babbel
+
+    Dev of Crown and anchors from an OOP perspective
+
+    validation is to make sure you get the expected data types
+
+
+
+    

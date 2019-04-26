@@ -45,4 +45,83 @@ OOP
 
 
 
+    a new game will have a new mat, an array of bets, an array of die, and a state
+
+    new.
+    place bet.
+
+    when there's no game, reate new
+    when there's new ame, plce bet
+    when bets, roll dice
+    show result
+    tally
+    reset
+
+    objects exist in a state
+
+    place bet Methods
+
+    play
+
+    reset
+
+
+    class homework - create a bet Methods
+    
+    which will: 
+
+    validate game state
+
+    validate bet values
+
+    if bet value > 0, pass new value to that face.
+
+
+forrester and gartner - analyst firms - keep up CIO!
+
+
+recuiters - send resume - TEK systems - garfield jackson - 704-357-4483
+
+genesis 10 - 
+
+Apex
+
+Insight global
+
+ATTEIN
+
+TATA consulting
+
+Cognizant
+
+Microsoft 
+
+Aerotek
+
+accrue partners
+
+talent bridge - good for starting out
+
+signature tek and genesis
+
+diversant llc
+
+Kforce
+
+Eliasian group
+
+creative staffing services
+
+ATR international
+
+Apple1 
+
+Collibra
+
+career builders indeed glassdoor 
+
+paysa.com - negotiate salary
+
+
+
     

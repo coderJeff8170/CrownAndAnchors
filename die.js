@@ -1,3 +1,4 @@
+//die requires a face, so import face module
 var Face = require("./Face");
 
 class Die {
@@ -8,7 +9,7 @@ class Die {
         return 6;
     }
     
-    //vv this checs to make sure each face is an array VALIDATE VALIDATE VALIDATE it's a best practice!
+    //vv this checks to make sure each face is an array VALIDATE VALIDATE VALIDATE it's a best practice!
     set faces(dieFaces) {
         if (Array.isArray(dieFaces)) {
             for (var i = 0; i < dieFaces.length; i++) {

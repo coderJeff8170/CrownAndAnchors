@@ -4,6 +4,17 @@ var Die = require('./Die.js');
 var Mat = require('./Mat.js');
 var Bet = require('./Bet.js');
 
+<<<<<<< HEAD
+=======
+try {
+var myFace = new Face('Crown', 10, 'imageurl');// you gotta use the new keyword mangggg!!!
+//image url is validated as a string
+//if the var is greyed out, that means it's not being used (variable defined but never read)
+
+var myBet = new Bet(20, 'Spade');
+//you have to populate this from the DOM 
+var myBetAgain = new Bet('Crown', 10);
+>>>>>>> 999ecfa4deb48511a4db0c54ac53e64e21e3a95f
 
 //a constant for each face
 const crown = new Face('crown', 1, 'crown.jpg');
@@ -34,6 +45,7 @@ console.log(myMat.face.name);
 //place a bet
 let myBet = new Bet(spade, 10);
 console.log(`I'm betting ${myBet.betValue}`);
+<<<<<<< HEAD
 //roll 3 die
 
 
@@ -43,3 +55,11 @@ console.log(`I'm betting ${myBet.betValue}`);
 
 
 
+=======
+console.log(myBetAgain);
+
+}
+catch(err) {
+    console.log(err.message);
+}
+>>>>>>> 999ecfa4deb48511a4db0c54ac53e64e21e3a95f

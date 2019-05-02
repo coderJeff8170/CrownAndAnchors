@@ -36,27 +36,6 @@ class Bet {
     get face() {
         return this._face;
     }
-    /*     set face(betFace) {
-        if (Array.betFaceisArray()) {
-            for (var i = 0; i < betFace.length; i++) {
-                if (!(betFace[i] instanceof Face)) {
-                    betFace[i] = new Face(i, i, i); 
-                }
-            }
-        }
-    
-        else {
-        var betFace = [];
-
-            for (var i = 0; i < Die.defaultNumberOfFaces(); i++) {
-                betFace.push(new Face(i, i + 1));
-            }
-        }
-
-        
-    this._face = betFace;
-    } */
-
 
     set betValue(betValue) {
         if(isNaN(betValue) || betValue <= 0) {

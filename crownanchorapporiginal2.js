@@ -34,6 +34,22 @@ console.log(myMat.face.name);
 //place a bet
 let myBet = new Bet(spade, 10);
 console.log(`I'm betting ${myBet.betValue}`);
+
+//place a bet
+//class homework - create a bet Method
+//which will: 
+//validate game state
+//validate bet values
+//if bet value > 0, pass new value to that face.
+//COPY HIS CODE FROM LAST CLASS FIRST OR YOURE SHOOTING IN THE DARK!!
+
+
+
+let myBet = new Bet(spade, 10);
+if (myBet(!isNan && gameState === 1)) {
+
+}
+console.log(`I'm betting ${myBet.betValue}`);
 //roll 3 die
 
 

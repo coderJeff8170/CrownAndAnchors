@@ -56,8 +56,30 @@ class CrownAndAnchorsGame {
     get gameState() {
         return this._gameState;
     }
+//bet method?
+
+//place a bet
+//class homework - create a bet Method
+//which will: 
+//validate game state
+//validate bet values
+//if bet value > 0, pass new value to that face.
 
     placeBet(crownBetValue, anchorBetValue) {
         this._gameState = 1;
+    }
+
+    set betValues(betValues, gameState) {
+        if(!gameState === 1) {
+            throw new Error("Wrong game state!");
+        }
+        else if(betValues ) {
+            
+        }
+        
+    }
+
+    get betValues() {
+        return this._betValues;
     }
 }

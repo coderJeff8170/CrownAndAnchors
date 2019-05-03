@@ -1,0 +1,5 @@
+in building a UI interface, we're going to use a js library to 
+bind certain things together, some one way, some two way, 
+such as the bet fields in the game. If somebody places a bet, instantly
+the gamestate will change to let the dice be rolled,
+and the bet field will automatically update the code and vice versa.

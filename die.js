@@ -2,7 +2,7 @@
 var Face = require("./Face");
 
 class Die {
-    constructor(faces) {           //constructor function
+    constructor(faces) {      //constructor function
         this._faces = faces;
     }
     static defaultNumberOfFaces() {
